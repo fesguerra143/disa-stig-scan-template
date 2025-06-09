@@ -158,7 +158,7 @@ This project is about Scanning a Windows VM: Authenticated vs. Unauthenticated
 <img width="600" alt="scan results" src="https://github.com/user-attachments/assets/2cf0f6bb-51c9-4052-9649-7a3049937a0e" />
 
 #### Tenable Vulnerability Management Report
-[Tenable Vulnerability Management Report - Authenticated](https://drive.google.com/file/d/1crKF3tikhzv756wu7t05l9pV3MXs9rhR/view?usp=sharing)
+[Tenable Vulnerability Management Report - Authenticated](https://drive.google.com/file/d/1wsiYlNjNFqvXqji4pbG02z2_a-n1-Hs_/view?usp=drive_link)
 
 
 ---
