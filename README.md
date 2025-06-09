@@ -1,6 +1,6 @@
 
 
-# Scanning for Vulnerabilities Project - DISA STIG Compliance
+# DISA STIG Compliance Project
 
 This project is about Scanning a Windows VM: Authenticated vs. Unauthenticated
 
@@ -137,8 +137,25 @@ This project is about Scanning a Windows VM: Authenticated vs. Unauthenticated
 <img width="600" alt="credentials" src="https://github.com/user-attachments/assets/18a0ca1f-7065-4e2a-9d10-8c28267efaf0" />
 
 
-#### Scan Results - to be edit
-<img width="600" alt="scan results" src="https://github.com/user-attachments/assets/9b1c8f8e-0ff2-45d8-80a6-c801e99d5fe8" />
+#### Scan Results 
+
+##### Vulns by Plugin
+<img width="600" alt="scan results" src="https://github.com/user-attachments/assets/a4f25d56-2ffd-4694-9bda-058c08fba39a" />
+
+##### Audits
+<img width="600" alt="scan results" src="https://github.com/user-attachments/assets/fd8d6565-aef6-47c9-aed9-bb3227d63248" />
+
+
+##### Vulns by Asset
+<img width="600" alt="scan results" src="https://github.com/user-attachments/assets/89386387-01af-4017-a7c2-2a4ee8ca4ad6" />
+
+
+##### Remediations
+<img width="600" alt="scan results" src="https://github.com/user-attachments/assets/6b0af59f-559b-42c1-9015-365ddbbd5e6e" />
+
+
+##### History
+<img width="600" alt="scan results" src="https://github.com/user-attachments/assets/2cf0f6bb-51c9-4052-9649-7a3049937a0e" />
 
 #### Tenable Vulnerability Management Report
 [Tenable Vulnerability Management Report - Authenticated](https://drive.google.com/file/d/1crKF3tikhzv756wu7t05l9pV3MXs9rhR/view?usp=sharing)
