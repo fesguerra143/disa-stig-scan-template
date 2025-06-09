@@ -1,6 +1,6 @@
 
 
-# Scanning for Vulnerabilities Project - Using a DISA STIG Scan Template
+# Scanning for Vulnerabilities Project - UDISA STIG Scan 
 
 This project is about Scanning a Windows VM: Authenticated vs. Unauthenticated
 
