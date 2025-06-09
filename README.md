@@ -1,6 +1,6 @@
 
 
-# Scanning for Vulnerabilities Project 
+# Scanning for Vulnerabilities Project - Using a DISA STIG Scan Template
 
 This project is about Scanning a Windows VM: Authenticated vs. Unauthenticated
 
@@ -10,7 +10,7 @@ This project is about Scanning a Windows VM: Authenticated vs. Unauthenticated
 # Tools & Technology:
 - Tenable (enterprise vulnerability management platform)
 - Azure Virtual Machine
-- PowerShell 
+
 
 ---
 # Table of contents
@@ -31,34 +31,57 @@ This project is about Scanning a Windows VM: Authenticated vs. Unauthenticated
 
 #### Configure the Basics Tab: 
 
-<img width="600" alt="vm1" src="https://github.com/user-attachments/assets/936b6db1-bfab-48c4-b9d8-c3cda0b55815" />
+<img width="600" alt="vm1" src="https://github.com/user-attachments/assets/152b83d4-1303-49df-b467-df2170872c0b" />
+
 
 #### Configure the Disks Tab:
 
-<img width="600" alt="vm2" src="https://github.com/user-attachments/assets/2c5feeaf-246e-4ded-b660-081dad228f4e" />
+<img width="600" alt="vm2" src="https://github.com/user-attachments/assets/6d3819c9-b532-45f5-a509-2d89942ffbd6" />
+
 
 #### Configure the Setup Networking:
 
-<img width="600" alt="vm3" src="https://github.com/user-attachments/assets/ac22751a-8567-4e49-991e-c049b7f63996" />
+<img width="600" alt="vm3" src="https://github.com/user-attachments/assets/af658652-0581-41c0-bcdf-e208ed950b41" />
+
 
 #### Review + Create:
-<img width="600" alt="vm5" src="https://github.com/user-attachments/assets/5ade34fe-02e3-4369-a58f-dffd0e69384c" />
+<img width="600" alt="vm5" src="https://github.com/user-attachments/assets/d65013ec-3c25-426d-ba6a-cbe3e0f3351f" />
+
 
 #### Deployment:
-<img width="600" alt="vm7" src="https://github.com/user-attachments/assets/ffc85fea-5059-468c-a595-f3cd138adb94" />
+<img width="600" alt="vm7" src="https://github.com/user-attachments/assets/9e8c5e4a-3348-47c4-9565-a3958e21ee9b" />
+
 
 ---
 ### Step 2) Log into the VM and disable the Windows Firewall 
 
-#### Remote Desktop Connection:
+#### Bastion Connection:
 
-<img width="600" alt="rdp" src="https://github.com/user-attachments/assets/8dd4702d-8112-40f6-94ac-8d98e7b506d9" />
+<img width="600" alt="rdp" src="https://github.com/user-attachments/assets/cbed6adf-9061-4fe8-a49e-5e4061ac9ebb" />
+
 
 #### Disable Windows Firewall 
 
 <img width="600" alt="wf" src="https://github.com/user-attachments/assets/b2cc7376-5bc6-4cf1-82ad-e549a2c393ee" />
 
+#### Create Administrator user account & assign to administrators group
+
+<img width="600" alt="wf" src="https://github.com/user-attachments/assets/d3ed6359-bbd9-4332-9515-e873b4f354fd" />
+
+#### Assign to administrators group
+
+<img width="600" alt="wf" src="https://github.com/user-attachments/assets/4301bbb7-6801-4595-9106-5ed69624cdad" />
+
+#### Enable Guest Account
+
+<img width="600" alt="wf" src="https://github.com/user-attachments/assets/9fa00fea-21ea-45dc-8de9-38ead71fc399" />
+
+
+#### Assign Guest to administrators group
+
+<img width="600" alt="wf" src="https://github.com/user-attachments/assets/2d124c00-76c0-47c3-88f2-3c2c16a29e86" />
 ---
+
 
 ### Step 3) Run a PowerShell command: 
 This command sets a registry key that allows local accounts to connect remotely with full administrative privileges without requiring elevation. 
