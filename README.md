@@ -64,6 +64,9 @@ This project is about Scanning a Windows VM: Authenticated vs. Unauthenticated
 
 <img width="600" alt="wf" src="https://github.com/user-attachments/assets/b2cc7376-5bc6-4cf1-82ad-e549a2c393ee" />
 
+---
+### Step 3) Administrator Account & Assign Group
+
 #### Create Administrator user account 
 
 <img width="600" alt="wf" src="https://github.com/user-attachments/assets/d3ed6359-bbd9-4332-9515-e873b4f354fd" />
@@ -72,6 +75,9 @@ This project is about Scanning a Windows VM: Authenticated vs. Unauthenticated
 
 <img width="600" alt="wf" src="https://github.com/user-attachments/assets/4301bbb7-6801-4595-9106-5ed69624cdad" />
 
+---
+
+### Step 4) Guest Account & Assign Group
 #### Enable Guest Account
 
 <img width="600" alt="wf" src="https://github.com/user-attachments/assets/9fa00fea-21ea-45dc-8de9-38ead71fc399" />
@@ -80,24 +86,6 @@ This project is about Scanning a Windows VM: Authenticated vs. Unauthenticated
 #### Assign Guest to administrators group
 
 <img width="600" alt="wf" src="https://github.com/user-attachments/assets/2d124c00-76c0-47c3-88f2-3c2c16a29e86" />
----
-
-
-### Step 3) Run a PowerShell command: 
-This command sets a registry key that allows local accounts to connect remotely with full administrative privileges without requiring elevation. 
-
-<img width="600" alt="powershell" src="https://github.com/user-attachments/assets/7dad2e05-ecd1-4632-8203-72e80b47ea58" />
-
----
-
-### Step 4) Create a Network Security Group
-#### Inbound Security Rule to allow all traffic
-
-<img width="600" alt="powershell" src="https://github.com/user-attachments/assets/cf486cee-1961-4e11-97e0-0a66e71a7028" />
-
-#### Test the NSG using Ping Command: 
-
-<img width="600" alt="ping command" src="https://github.com/user-attachments/assets/ee909eb2-e99b-48c9-abc9-823685faf7fa" />
 
 ---
 
@@ -106,24 +94,48 @@ This command sets a registry key that allows local accounts to connect remotely 
 <img width="600" alt="tenablelogin" src="https://github.com/user-attachments/assets/65aa3c73-113b-4b85-8b79-de3a142d4e4b" />
 
 ---
-### Step 6) Run a Basic Scan: Unauthenticated
-#### Configure Scan basic settings
+### Step 6) Create a Scan Template
+#### Configure Scan Basic settings
 
-<img width="600" alt="scan" src="https://github.com/user-attachments/assets/3acb6537-65cf-4df7-8bdc-8ebb6543ceea" />
+<img width="600" alt="scan" src="https://github.com/user-attachments/assets/d4250fe1-8622-492b-8d4c-1e3886e99b31" />
 
-#### Scan Results
-<img width="600" alt="scan results" src="https://github.com/user-attachments/assets/fa337ccc-ab06-4b78-880e-982fa3ddeab1" />
+#### Configure Scan Discovery settings
 
-#### Tenable Vulnerability Management Report
-[Tenable Vulnerability Management Report - UnAuthenticated](https://drive.google.com/file/d/11Gtks85b8GboGLymJlLQIehsnZ-NUOhL/view?usp=sharing)
+<img width="600" alt="scan" src="https://github.com/user-attachments/assets/59c72b13-4c4a-47ad-8e52-d8a6e93ffb35" />
+
+
+#### Configure Scan Assessment settings
+
+<img width="600" alt="scan" src="https://github.com/user-attachments/assets/a8059fd5-dfe6-4d70-b22c-a7969569a71f" />
+
+
+#### Configure Scan Credentials settings
+
+<img width="600" alt="scan" src="https://github.com/user-attachments/assets/a8e8a96e-186d-4556-8a2d-49728dde31c7" />
+
+#### Configure Scan Compliance settings
+
+<img width="600" alt="scan" src="https://github.com/user-attachments/assets/4ace1c7b-e033-42bd-bcb7-3583e1a36e17" />
+
+
+#### Configure Scan Plugins settings
+
+<img width="600" alt="scan" src="https://github.com/user-attachments/assets/9fbe50c2-8b2c-4e97-a158-e34384fad8ae" />
 
 
 ---
 
-### Step 7) Run a Basic Scan: Authenticated
-#### Configure Credentials
+### Step 7) Create a Custom Scan using the DISA STIG Template
 
-<img width="600" alt="credentials" src="https://github.com/user-attachments/assets/d91cbe35-6577-434a-99b7-23db1c4b0ac6" />
+#### Select a Scan Template
+
+<img width="600" alt="scan" src="https://github.com/user-attachments/assets/4f4080e2-8a6f-478c-bbb8-d03fc46a32a9" />
+
+
+#### Configure Scan Basic settings
+
+<img width="600" alt="credentials" src="https://github.com/user-attachments/assets/18a0ca1f-7065-4e2a-9d10-8c28267efaf0" />
+
 
 #### Scan Results
 <img width="600" alt="scan results" src="https://github.com/user-attachments/assets/9b1c8f8e-0ff2-45d8-80a6-c801e99d5fe8" />
@@ -133,6 +145,4 @@ This command sets a registry key that allows local accounts to connect remotely 
 
 
 ---
-### Difference in Scan Duration
 
-![scantime](https://github.com/user-attachments/assets/c2f715f4-fbdb-429e-9fd5-d9aa93477e94)
