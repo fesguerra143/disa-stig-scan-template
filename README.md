@@ -125,9 +125,9 @@ This project is about Scanning a Windows VM: Authenticated vs. Unauthenticated
 
 ---
 
-### Step 7) Create a Custom Scan using the DISA STIG Template
+### Step 7) Create a Custom Scan
 
-#### Select a Scan Template
+#### Select a DISA STIG Template
 
 <img width="600" alt="scan" src="https://github.com/user-attachments/assets/4f4080e2-8a6f-478c-bbb8-d03fc46a32a9" />
 
@@ -137,7 +137,7 @@ This project is about Scanning a Windows VM: Authenticated vs. Unauthenticated
 <img width="600" alt="credentials" src="https://github.com/user-attachments/assets/18a0ca1f-7065-4e2a-9d10-8c28267efaf0" />
 
 
-#### Scan Results
+#### Scan Results - to be edit
 <img width="600" alt="scan results" src="https://github.com/user-attachments/assets/9b1c8f8e-0ff2-45d8-80a6-c801e99d5fe8" />
 
 #### Tenable Vulnerability Management Report
