@@ -64,7 +64,7 @@ This project is about Scanning a Windows VM: Authenticated vs. Unauthenticated
 
 <img width="600" alt="wf" src="https://github.com/user-attachments/assets/b2cc7376-5bc6-4cf1-82ad-e549a2c393ee" />
 
-#### Create Administrator user account & assign to administrators group
+#### Create Administrator user account 
 
 <img width="600" alt="wf" src="https://github.com/user-attachments/assets/d3ed6359-bbd9-4332-9515-e873b4f354fd" />
 
