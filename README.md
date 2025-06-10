@@ -15,41 +15,13 @@ This project is about Scanning a Windows VM using DISA STIG Compliance
 ---
 # Table of contents
 
-- [Step 1) Create a Windows virtual machine in the Azure portal](#step-1--create-a-windows-virtual-machine-in-the-azure-portal)
-  * [Configure the Basics Tab:](#configure-the-basics-tab-)
-  * [Configure the Disks Tab:](#configure-the-disks-tab-)
-  * [Configure the Setup Networking:](#configure-the-setup-networking-)
-  * [Review + Create:](#review---create-)
-  * [Deployment:](#deployment-)
-- [Step 2) Log into the VM and disable the Windows Firewall](#step-2--log-into-the-vm-and-disable-the-windows-firewall)
-  * [Bastion Connection:](#bastion-connection-)
-  * [Disable Windows Firewall](#disable-windows-firewall)
-- [Step 3) Administrator Account & Assign Group](#step-3--administrator-account---assign-group)
-  * [Create Administrator user account](#create-administrator-user-account)
-  * [Assign to administrators group](#assign-to-administrators-group)
-- [Step 4) Guest Account & Assign Group](#step-4--guest-account---assign-group)
-  * [Enable Guest Account](#enable-guest-account)
-  * [Assign Guest to administrators group](#assign-guest-to-administrators-group)
-- [Step 5) Login to tenable](#step-5--login-to-tenable)
-- [Step 6) Create a Scan Template](#step-6--create-a-scan-template)
-  * [Configure Scan Basic settings](#configure-scan-basic-settings)
-  * [Configure Scan Discovery settings](#configure-scan-discovery-settings)
-  * [Configure Scan Assessment settings](#configure-scan-assessment-settings)
-  * [Configure Scan Credentials settings](#configure-scan-credentials-settings)
-  * [Configure Scan Compliance settings](#configure-scan-compliance-settings)
-  * [Configure Scan Plugins settings](#configure-scan-plugins-settings)
-- [Step 7) Create a Custom Scan](#step-7--create-a-custom-scan)
-  * [Select a DISA STIG Template](#select-a-disa-stig-template)
-  * [Configure Scan Basic settings](#configure-scan-basic-settings-1)
-  * [Scan Results](#scan-results)
-    + [Vulns by Plugin](#vulns-by-plugin)
-    + [Audits](#audits)
-    + [Vulns by Asset](#vulns-by-asset)
-    + [Remediations](#remediations)
-    + [History](#history)
-  * [Tenable Vulnerability Management Report](#tenable-vulnerability-management-report)
-
-<small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
+- [Step 1) Create a Windows virtual machine in the Azure portal](#step-1-create-a-windows-virtual-machine-in-the-azure-portal)
+- [Step 2) Log into the VM and disable the Windows Firewall](#step-2-log-into-the-vm-and-disable-the-windows-firewall)
+- [Step 3) Administrator Account & Assign Group](#step-3-administrator-account--assign-group)
+- [Step 4) Guest Account & Assign Group](#step-4-guest-account--assign-group)
+- [Step 5) Login to tenable](#step-5-login-to-tenable)
+- [Step 6) Create a Scan Template](#step-6-create-a-scan-template)
+- [Step 7) Create a Custom Scan](#step-7-create-a-custom-scan)
 
 ---
 
