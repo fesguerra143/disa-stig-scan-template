@@ -30,12 +30,12 @@ This project is about Scanning a Windows VM using DISA STIG Compliance
 
 #### Configure the Basics Tab: 
 
-<img width="600" alt="vm1" src="https://github.com/user-attachments/assets/152b83d4-1303-49df-b467-df2170872c0b" />
+<img width="700" alt="vm1" src="https://github.com/user-attachments/assets/152b83d4-1303-49df-b467-df2170872c0b" />
 
 
 #### Configure the Disks Tab:
 
-<img width="600" alt="vm2" src="https://github.com/user-attachments/assets/6d3819c9-b532-45f5-a509-2d89942ffbd6" />
+<img width="700" alt="vm2" src="https://github.com/user-attachments/assets/6d3819c9-b532-45f5-a509-2d89942ffbd6" />
 
 
 #### Configure the Setup Networking:
