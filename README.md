@@ -144,6 +144,13 @@ This project is about Scanning a Windows VM using DISA STIG Compliance
 ##### Audits
 <img width="600" alt="scan results" src="https://github.com/user-attachments/assets/fd8d6565-aef6-47c9-aed9-bb3227d63248" />
 
+###### Guest Account Non-Compliance 
+<img width="600" alt="scan results" src="https://github.com/user-attachments/assets/7d3a2c06-daab-4627-b925-0f620b031d2a" />
+
+
+###### Password Non-Compliance 
+<img width="600" alt="scan results" src="https://github.com/user-attachments/assets/201ac62c-1951-4288-bf2e-43b72fafc81b" />
+
 
 ##### Vulns by Asset
 <img width="600" alt="scan results" src="https://github.com/user-attachments/assets/89386387-01af-4017-a7c2-2a4ee8ca4ad6" />
