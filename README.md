@@ -4,7 +4,7 @@
 
 This project is about Scanning a Windows VM using DISA STIG Compliance
 
-![Scanning Windows Authenticated vs Unauthenticated](https://github.com/user-attachments/assets/0475b1a7-3e0e-40a8-9341-08d97ee65d6e)
+![Scanning Windows DISA STIG Compliance](https://github.com/user-attachments/assets/0475b1a7-3e0e-40a8-9341-08d97ee65d6e)
 
 ---
 # Tools & Technology:
